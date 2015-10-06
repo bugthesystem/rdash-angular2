@@ -7,8 +7,8 @@ AngularJS2 implementation of the [RDash admin dashboard](http://rdash.github.io)
 # How to start
 
 ```bash
-git clone https://github.com/mgechev/angular2-seed.git
-cd angular2-seed
+git clone https://github.com/ziyasal/rdash-angular2.git
+cd rdash-angular2
 npm install
 # dev
 npm run serve.dev
