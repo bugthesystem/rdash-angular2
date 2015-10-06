@@ -1,6 +1,6 @@
 # Introduction
 
-AngularJS2 implementation of the [RDash admin dashboard](http://rdash.github.io) theme
+[AngularJS 2](https://angular.io/) implementation of the [RDash admin dashboard](http://rdash.github.io) theme
 
 **Note:** Angular 2.0 is not production ready yet! This seed project is perfect for playing around with the latest versions but do not start new projects with it since a lot of new changes are going to be introduced until the framework is officially released.
 
@@ -37,4 +37,4 @@ You can follow the [Angular 2 change log here](https://github.com/angular/angula
 
 # License
 
-MIT
+[MIT}(https://raw.githubusercontent.com/ziyasal/rdash-angular2/master/LICENSE)
