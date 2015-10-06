@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Angular 2 App</title>
+  <base href="<%= APP_BASE %>">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- build:css lib/css/main.min.css -->
+  <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css\font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css\rdash.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <!-- endbuild -->
+
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<body>
+
+
+<app>Loading...</app>
+
+<script src="js\jquery.min.js"></script>
+<script src="js\bootstrap.min.js"></script>
+
+<!-- inject:js -->
+<!-- endinject -->
+
+<script src="<%= APP_BASE %>init.js?v=<%= VERSION %>"></script>
+
+</body>
+</html>
