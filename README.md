@@ -36,7 +36,7 @@ Configure at runtime
 npm run serve.dev -- --port 8080 --reload-port 4000 --base /my-app/
 ```
 
-## Directives
+## Components
 
 - RdWidget
 - RdWidgetHeader
