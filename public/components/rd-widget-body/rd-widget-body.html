@@ -1,0 +1,6 @@
+<div class="widget-body {{classes}}">
+  <rd-loading *ng-if="loading"></rd-loading>
+  <div *ng-if="!loading" class="widget-content">
+    <ng-content></ng-content>
+  </div>
+</div>
