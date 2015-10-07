@@ -7,6 +7,8 @@
 
 [**Demo App**](https://rdash-angular2.herokuapp.com/)
 
+_*Based on [angular2-seed](https://github.com/mgechev/angular2-seed) project*_
+
 # How to start
 
 ```bash
@@ -32,6 +34,60 @@ Configure at runtime
 
 ```bash
 npm run serve.dev -- --port 8080 --reload-port 4000 --base /my-app/
+```
+
+## Directives
+
+- RdWidget
+- RdWidgetHeader
+- RdWidgetBody
+- RdWidgetFooter
+- RdLoading
+
+
+**Simple Widget** 
+```js
+    <rd-widget>
+      <rd-widget-body>       
+       <span>HTML CONTENT</span>       
+      </rd-widget-body>
+    </rd-widget>
+```
+
+**Widget with Header**  
+```js
+ <rd-widget>
+       <rd-widget-header icon="fa-tasks" title="Servers">
+         <a href="javascript:void(0)" style="float: right">Manage</a>
+       </rd-widget-header>
+       <rd-widget-body classes="medium no-padding">
+         <server-list-view [model]="servers"></server-list-view>
+       </rd-widget-body>
+     </rd-widget>
+```
+
+**Widget with Footer**  
+```js
+ <rd-widget>
+       <rd-widget-header icon="fa-tasks" title="Servers">
+         <a href="javascript:void(0)" style="float: right">Manage</a>
+       </rd-widget-header>
+       <rd-widget-body classes="medium no-padding">
+         <server-list-view [model]="servers"></server-list-view>
+       </rd-widget-body>
+       <rd-widget-footer>
+         <span>FOOTER CONTENT</span>
+       </rd-widget-footer>
+     </rd-widget>
+```
+
+**Widget with Loader**  
+```js
+ <rd-widget>
+    <rd-widget-body classes="medium no-padding">
+       <rd-loading></rd-loading>
+    </rd-widget-body>
+ </rd-widget>
 ```
 
 # Change Log
