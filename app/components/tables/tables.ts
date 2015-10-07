@@ -6,8 +6,6 @@ import {RdWidget} from 'components/rd-widget/rd-widget';
 import {RdWidgetHeader} from 'components/rd-widget-header/rd-widget-header';
 import {RdWidgetBody} from 'components/rd-widget-body/rd-widget-body';
 import {RdWidgetFooter} from 'components/rd-widget-footer/rd-widget-footer';
-import {RdWidgetBody} from "components/rd-widget-body/rd-widget-body";
-import {RdWidgetFooter} from "components/rd-widget-footer/rd-widget-footer";
 
 import {ServerListView} from 'components/server-list-view/server-list-view';
 import {ServerListService} from 'services/server_list';
