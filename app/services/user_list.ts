@@ -16,15 +16,11 @@ export class UserListService {
     account: 'AM23781'
   }];
 
-  get():string[] {
-    return this.users;
-  }
-
-  add(value:string):void {
+  add(value:any):void {
     this.users.push(value);
   }
 
-  all() {
+  all():any[] {
     return this.users;
   }
 }
