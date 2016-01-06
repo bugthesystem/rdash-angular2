@@ -23,15 +23,11 @@ export class ServerListService {
     {name: 'RDESX003', ip: '209.25.191.61', 'tooltip': '', 'tooltipcls': 'text-success', 'icon': 'fa-check'}
   ];
 
-  get():string[] {
-    return this.servers;
-  }
-
-  add(value:string):void {
+  add(value:any):void {
     this.servers.push(value);
   }
 
-  all() {
+  all() : any[] {
     return this.servers;
   }
 }
