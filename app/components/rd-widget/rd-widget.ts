@@ -1,11 +1,7 @@
-import {Component, View, CORE_DIRECTIVES} from 'angular2/angular2';
-
+import {Component} from 'angular2/core';
 @Component({
-  selector: 'rd-widget'
-})
-@View({
-  templateUrl: './components/rd-widget/rd-widget.html',
-  directives: [CORE_DIRECTIVES]
+  selector: 'rd-widget',
+  templateUrl: './components/rd-widget/rd-widget.html'
 })
 export class RdWidget {
 }

@@ -1,7 +1,7 @@
 // Karma configuration
 // Generated on Wed Jul 15 2015 09:44:02 GMT+0200 (Romance Daylight Time)
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -15,29 +15,27 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'node_modules/angular2/node_modules/zone.js/dist/zone-microtask.js',
-      'node_modules/angular2/node_modules/zone.js/dist/long-stack-trace-zone.js',
-      'node_modules/angular2/node_modules/zone.js/dist/jasmine-patch.js',
-      'node_modules/angular2/node_modules/traceur/bin/traceur-runtime.js',
-      'node_modules/es6-module-loader/dist/es6-module-loader-sans-promises.src.js',
+      // 'node_modules/zone.js/dist/zone-microtask.js',
+      'node_modules/zone.js/dist/long-stack-trace-zone.js',
+      'node_modules/zone.js/dist/jasmine-patch.js',
+      'node_modules/traceur/bin/traceur-runtime.js',
+      'node_modules/es6-module-loader/dist/es6-module-loader-dev.src.js',
       'node_modules/systemjs/dist/system.src.js',
       'node_modules/reflect-metadata/Reflect.js',
 
-      { pattern: 'test/**/*.js', included: false, watched: true },
-      { pattern: 'node_modules/angular2/**/*.js', included: false, watched: false },
-      'test-main.js',
+      {pattern: 'test/**/*.js', included: false, watched: true},
+      {pattern: 'node_modules/angular2/**/*.js', included: false, watched: false},
+      'test-main.js'
     ],
 
 
     // list of files to exclude
-    exclude: [
-    ],
+    exclude: [],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    },
+    preprocessors: {},
 
 
     // test results reporter to use
@@ -72,4 +70,4 @@ module.exports = function(config) {
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false
   })
-}
+};

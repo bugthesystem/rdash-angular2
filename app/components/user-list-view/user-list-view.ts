@@ -1,12 +1,10 @@
-import {Component, View,CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 @Component({
   selector: 'user-list-view',
-  properties: ['model']
-})
-@View({
+  properties: ['model'],
   templateUrl: './components/user-list-view/user-list-view.html',
-  directives: [CORE_DIRECTIVES]
+  directives: []
 })
 export class UserListView {
 

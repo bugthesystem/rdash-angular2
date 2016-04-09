@@ -1,4 +1,4 @@
-import {Component, View, CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 import {RdLoading} from 'components/rd-loading/rd-loading';
 import {RdWidget} from 'components/rd-widget/rd-widget';
@@ -13,18 +13,17 @@ import {ServerListService} from 'services/server_list';
 
 @Component({
   selector: 'tables',
-  appInjector: [ServerListService]
-})
-@View({
+  appInjector: [ServerListService],
   templateUrl: './components/tables/tables.html',
-  directives: [CORE_DIRECTIVES, RdWidget, RdWidgetHeader, RdWidgetBody, RdWidgetFooter, RdLoading,ServerListView]
+  directives: [RdWidget, RdWidgetHeader, RdWidgetBody, RdWidgetFooter, RdLoading, ServerListView]
 })
 export class Tables {
   servers:any[];
   serverListService:ServerListService;
 
   constructor() {
-    this.serverListService = new ServerListService();/*TODO: Inject*/
+    this.serverListService = new ServerListService();
+    /*TODO: Inject*/
     this.servers = this.serverListService.all();
   }
 }

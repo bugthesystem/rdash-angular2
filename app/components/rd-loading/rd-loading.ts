@@ -1,9 +1,7 @@
-import {Component, View,CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 @Component({
-  selector: 'rd-loading'
-})
-@View({
+  selector: 'rd-loading',
   templateUrl: './components/rd-loading/rd-loading.html'
 })
 export class RdLoading {

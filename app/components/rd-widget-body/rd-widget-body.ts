@@ -1,12 +1,8 @@
-import {Component, View, CORE_DIRECTIVES} from 'angular2/angular2';
-
+import {Component} from 'angular2/core';
 @Component({
   selector: 'rd-widget-body',
-  properties: ['loading', 'classes']
-})
-@View({
-  templateUrl: './components/rd-widget-body/rd-widget-body.html',
-  directives: [CORE_DIRECTIVES]
+  properties: ['loading', 'classes'],
+  templateUrl: './components/rd-widget-body/rd-widget-body.html'
 })
 export class RdWidgetBody {
   loading:boolean;

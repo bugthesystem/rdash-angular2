@@ -1,12 +1,9 @@
-import {Component, View,CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 @Component({
   selector: 'server-list-view',
-  properties: ['model']
-})
-@View({
-  templateUrl: './components/server-list-view/server-list-view.html',
-  directives: [CORE_DIRECTIVES]
+  properties: ['model'],
+  templateUrl: './components/server-list-view/server-list-view.html'
 })
 export class ServerListView {
 

@@ -39,8 +39,8 @@ var PATH = {
       lib: [
         // Order is quite important here for the HTML tag injection.
         require.resolve('traceur/bin/traceur-runtime.js'),
-        require.resolve('es6-module-loader/dist/es6-module-loader-sans-promises.js'),
-        require.resolve('es6-module-loader/dist/es6-module-loader-sans-promises.js.map'),
+        require.resolve('es6-module-loader/dist/es6-module-loader-dev.src.js'),
+        require.resolve('es6-module-loader/dist/es6-module-loader-dev.js.map'),
         require.resolve('reflect-metadata/Reflect.js'),
         require.resolve('reflect-metadata/Reflect.js.map'),
         require.resolve('systemjs/dist/system.src.js'),

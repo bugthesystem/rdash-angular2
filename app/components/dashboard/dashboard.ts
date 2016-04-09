@@ -1,4 +1,4 @@
-import {Component, View} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 import {Alerts} from 'components/alerts/alerts';
 
@@ -19,9 +19,7 @@ import {UserListService} from 'services/user_list';
 
 @Component({
   selector: 'dashboard',
-  appInjector: [ServerListService]
-})
-@View({
+  appInjector: [ServerListService],
   templateUrl: './components/dashboard/dashboard.html',
   styleUrls: ['./components/dashboard/dashboard.css'],
   directives: [Alerts, RdWidget, RdWidgetHeader, RdWidgetBody, RdWidgetFooter, RdLoading, ServerListView, UserListView]

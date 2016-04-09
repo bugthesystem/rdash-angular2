@@ -1,21 +1,22 @@
-import {Component, View, bootstrap,CORE_DIRECTIVES} from 'angular2/angular2';
+import 'core-js';
+import 'zone.js';
+
+import {Component} from 'angular2/core';
+import {bootstrap} from 'angular2/platform/browser';
+
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_BINDINGS} from 'angular2/router';
-// import {HTTP_BINDINGS} from 'http/http';
 
 import {Dashboard} from './components/dashboard/dashboard';
 import {Tables} from './components/tables/tables';
 
-@Component({
-  selector: 'app'
-})
 @RouteConfig([
   {path: '/', component: Dashboard, as: 'dashboard'},
   {path: '/tables', component: Tables, as: 'tables'}
 ])
-@View({
+@Component({
+  selector: 'app',
   templateUrl: './app.html',
-  styleUrls: ['./app.css'],
-  directives: [ROUTER_DIRECTIVES, CORE_DIRECTIVES]
+  styleUrls: ['./app.css']
 })
 class App {
 
@@ -50,4 +51,4 @@ class App {
   }
 }
 
-bootstrap(App, [ROUTER_BINDINGS]);
+bootstrap(App);

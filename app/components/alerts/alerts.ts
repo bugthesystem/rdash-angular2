@@ -1,11 +1,8 @@
-import {Component, View,CORE_DIRECTIVES} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 
 @Component({
-  selector: 'alerts'
-})
-@View({
-  templateUrl: './components/alerts/alerts.html',
-  directives: [CORE_DIRECTIVES]
+  selector: 'alerts',
+  templateUrl: './components/alerts/alerts.html'
 })
 export class Alerts {
 

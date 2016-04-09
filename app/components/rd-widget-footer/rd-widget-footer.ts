@@ -1,11 +1,7 @@
-import {Component, View,CORE_DIRECTIVES} from 'angular2/angular2';
-
+import {Component} from 'angular2/core';
 @Component({
-  selector: 'rd-widget-footer'
-})
-@View({
-  templateUrl: './components/rd-widget-footer/rd-widget-footer.html',
-  directives: [CORE_DIRECTIVES]
+  selector: 'rd-widget-footer',
+  templateUrl: './components/rd-widget-footer/rd-widget-footer.html'
 })
 export class RdWidgetFooter {
 }
