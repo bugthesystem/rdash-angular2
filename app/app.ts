@@ -4,7 +4,7 @@ import 'zone.js';
 import {Component} from 'angular2/core';
 import {bootstrap} from 'angular2/platform/browser';
 
-import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_BINDINGS} from 'angular2/router';
+import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
 
 import {Dashboard} from './components/dashboard/dashboard';
 import {Tables} from './components/tables/tables';
@@ -16,7 +16,8 @@ import {Tables} from './components/tables/tables';
 @Component({
   selector: 'app',
   templateUrl: './app.html',
-  styleUrls: ['./app.css']
+  styleUrls: ['./app.css'],
+  directives: [ROUTER_DIRECTIVES]
 })
 class App {
 
