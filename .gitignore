@@ -35,7 +35,7 @@ dist
 dev
 lib
 test
-tsd_typings
+typings
 
 # Dependency directory
 # Commenting this out is preferred by some people, see
