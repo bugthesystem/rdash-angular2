@@ -6,10 +6,7 @@
 
 **Note:** Angular 2.0 is not production ready yet! This project is perfect for playing around with the latest versions but do not start new projects with it since a lot of new changes are going to be introduced until the framework is officially released.
 
-
 [**Demo App**](https://rdash-angular2.herokuapp.com/)
-
-_*Based on [angular2-seed](https://github.com/mgechev/angular2-seed) project*_
 
 # How to start
 
@@ -17,25 +14,10 @@ _*Based on [angular2-seed](https://github.com/mgechev/angular2-seed) project*_
 git clone https://github.com/ziyasal/rdash-angular2.git
 cd rdash-angular2
 npm install
+typings install
+bower install
 # dev
-npm run serve.dev
-```
-_Does not rely on any global dependencies._
-
-# Configuration
-
-Default application server configuration
-
-```javascript
-var PORT             = 5555;
-var LIVE_RELOAD_PORT = 4002;
-var APP_BASE         = '/';
-```
-
-Configure at runtime
-
-```bash
-npm run serve.dev -- --port 8080 --reload-port 4000 --base /my-app/
+npm start
 ```
 
 ## Components

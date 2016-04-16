@@ -1,0 +1,16 @@
+<div class="table-responsive">
+    <table class="table">
+        <tbody>
+
+        <tr *ngFor="#server of model">
+            <td>{{server.name}}</td>
+            <td>{{server.ip}}</td>
+            <td>
+                <span class="{{server.tooltipcls}}"><i
+                        class="fa {{server.icon}}"></i></span></td>
+            <!--tooltip="{{serverItem.tooltip}}"-->
+        </tr>
+
+        </tbody>
+    </table>
+</div>

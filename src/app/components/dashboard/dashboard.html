@@ -1,0 +1,104 @@
+<alerts></alerts>
+
+<div class="row">
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <rd-widget>
+            <rd-widget-body>
+                <div class="widget-icon green pull-left">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="title">80</div>
+                <div class="comment">Users</div>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <rd-widget>
+            <rd-widget-body>
+                <div class="widget-icon red pull-left">
+                    <i class="fa fa-tasks"></i>
+                </div>
+                <div class="title">16</div>
+                <div class="comment">Servers</div>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <rd-widget>
+            <rd-widget-body>
+                <div class="widget-icon orange pull-left">
+                    <i class="fa fa-sitemap"></i>
+                </div>
+                <div class="title">225</div>
+                <div class="comment">Documents</div>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <rd-widget>
+            <rd-widget-body>
+                <div class="widget-icon blue pull-left">
+                    <i class="fa fa-support"></i>
+                </div>
+                <div class="title">62</div>
+                <div class="comment">Tickets</div>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+        <rd-widget>
+            <rd-widget-header icon="fa-tasks" title="Servers">
+                <a href="javascript:void(0)" style="float: right">Manage</a>
+            </rd-widget-header>
+            <rd-widget-body classes="medium no-padding">
+                <server-list-view [model]="servers"></server-list-view>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+    <div class="col-lg-6">
+        <rd-widget>
+            <rd-widget-header icon="fa-users" title="Users">
+                <input type="text" placeholder="Search" class="form-control input-sm"/>
+            </rd-widget-header>
+            <rd-widget-body classes="medium no-padding">
+                <user-list-view [model]="users"></user-list-view>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+        <rd-widget>
+            <rd-widget-header icon="fa-plus" title="Extras">
+                <button class="btn btn-sm btn-info" style="float: right">Button</button>
+            </rd-widget-header>
+            <rd-widget-body>
+                <div class="message">
+                    This is a standard message which will also work the ".no-padding" class, I can also <span
+                        class="error">be an error message!</span>
+                </div>
+                <hr/>
+                <div class="message">
+                    <a href="http://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a> is included, so
+                    you can use
+                    <a href="#" tooltip="I'm a tooltip!">tooltips</a> and all of the other native Bootstrap JS
+                    components!
+                </div>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+    <div class="col-lg-6">
+        <rd-widget>
+            <rd-widget-header icon="fa-cog fa-spin" title="Loading Directive">
+                <a href="http://tobiasahlin.com/spinkit/" style="float: right" target="_blank">SpinKit</a>
+            </rd-widget-header>
+            <rd-widget-body>
+                <rd-loading></rd-loading>
+            </rd-widget-body>
+        </rd-widget>
+    </div>
+</div>

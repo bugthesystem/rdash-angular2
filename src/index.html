@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/src/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Angular 2 App</title>
+    <base href="<%= APP_BASE %>">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- build:css lib/css/main.min.css -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/rdash-ui/dist/css/rdash.css">
+    <link rel="stylesheet" type="text/css" href="../src/app/main.css">
+    <!-- endbuild -->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body>
+
+
+<app>Loading...</app>
+
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="/node_modules/es6-shim/es6-shim.min.js"></script>
+<script src="/node_modules/systemjs/dist/system-polyfills.js"></script>
+<script src="/node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+<script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+<script src="/node_modules/systemjs/dist/system.src.js"></script>
+<script src="/node_modules/rxjs/bundles/Rx.js"></script>
+<script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+<script src="/node_modules/angular2/bundles/http.dev.js"></script>
+<script src="/node_modules/angular2/bundles/router.dev.js"></script>
+
+<!-- inject:js -->
+<!-- endinject -->
+
+<script src="system.config.js"></script>
+
+</body>
+</html>

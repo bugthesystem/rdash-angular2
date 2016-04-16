@@ -1,0 +1,20 @@
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="text-center">ID</th>
+            <th>Username</th>
+            <th>Role</th>
+            <th>Account</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="#user of model">
+            <td class="text-center">{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.role}}</td>
+            <td>{{user.account}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
