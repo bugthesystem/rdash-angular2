@@ -14,8 +14,8 @@
 git clone https://github.com/ziyasal/rdash-angular2.git
 cd rdash-angular2
 npm install
-typings install
-bower install
+npm run typings
+npm run bower
 # dev
 npm start
 ```

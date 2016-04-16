@@ -9,7 +9,8 @@
     "tsc:w": "tsc --watch",
     "live": "live-server --open=src",
     "start": "concurrently \"npm run tsc:w\" \"npm run live\" ",
-    "typings": "typings"
+    "typings": "typings install",
+    "bower": "bower install"
   },
   "author": "Ziya SARIKAYA <ziyasal>",
   "license": "MIT",
