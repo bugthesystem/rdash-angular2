@@ -4,7 +4,7 @@
   "description": "AngularJS2 implementation of the RDash admin dashboard theme http://rdash.github.io",
   "repository": "https://github.com/ziyasal/rdash-angular2",
   "scripts": {
-    "postinstall": "npm run typings install",
+    "postinstall": "npm run typings && npm run bower",
     "tsc": "tsc",
     "tsc:w": "tsc --watch",
     "live": "live-server --open=src",
