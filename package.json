@@ -4,13 +4,12 @@
   "description": "AngularJS2 implementation of the RDash admin dashboard theme http://rdash.github.io",
   "repository": "https://github.com/ziyasal/rdash-angular2",
   "scripts": {
-    "postinstall": "npm run typings && npm run bower",
+    "postinstall": "npm run typings",
     "tsc": "tsc",
     "tsc:w": "tsc --watch",
     "live": "live-server --open=src",
     "start": "concurrently \"npm run tsc:w\" \"npm run live\" ",
-    "typings": "typings install",
-    "bower": "bower install"
+    "typings": "typings install"
   },
   "author": "Ziya SARIKAYA <ziyasal>",
   "license": "MIT",
@@ -22,10 +21,14 @@
   },
   "dependencies": {
     "angular2": "2.0.0-beta.14",
-    "systemjs": "0.19.25",
+    "bootstrap": "^3.3.6",
     "es6-shim": "^0.35.0",
+    "font-awesome": "^4.6.1",
+    "jquery": "^2.2.3",
+    "rdash-ui": "^1.0.1",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.25",
     "zone.js": "0.6.6"
   }
 }
