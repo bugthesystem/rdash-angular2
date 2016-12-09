@@ -4,7 +4,7 @@
 
 > Responsive, bloat free, bootstrap powered admin style dashboard!
 
-**Note:** Angular 2.0 is not production ready yet! This project is perfect for playing around with the latest versions but do not start new projects with it since a lot of new changes are going to be introduced until the framework is officially released.
+**Note:** ~~Angular 2.0 is not production ready yet! This project is perfect for playing around with the latest versions but do not start new projects with it since a lot of new changes are going to be introduced until the framework is officially released.~~
 
 [**Demo App**](https://rdash-angular2.herokuapp.com/)
 
