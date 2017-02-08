@@ -72,10 +72,6 @@ npm start
  </rd-widget>
 ```
 
-# Change Log
-
-You can follow the [Angular 2 change log here](https://github.com/angular/angular/blob/master/CHANGELOG.md).
-
 # License
 
 [MIT](https://raw.githubusercontent.com/ziyasal/rdash-angular2/master/LICENSE)
