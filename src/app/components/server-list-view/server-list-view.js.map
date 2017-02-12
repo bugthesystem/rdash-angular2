@@ -1,1 +1,0 @@
-{"version":3,"file":"server-list-view.js","sourceRoot":"","sources":["server-list-view.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;YAOA;gBAII;oBACI,IAAI,CAAC,KAAK,GAAG,EAAE,CAAC;gBACpB,CAAC;gBAXL;oBAAC,gBAAS,CAAC;wBACP,QAAQ,EAAE,kBAAkB;wBAC5B,UAAU,EAAE,CAAC,OAAO,CAAC;wBACrB,WAAW,EAAE,uDAAuD;qBACvE,CAAC;;kCAAA;gBAQF,qBAAC;YAAD,CAAC,AAPD,IAOC;YAPD,2CAOC,CAAA"}
